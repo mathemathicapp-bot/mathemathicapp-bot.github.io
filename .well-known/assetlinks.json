@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.easysale.easysaleapp",
+      "sha256_cert_fingerprints": [
+        "55:B3:BB:37:80:C8:71:2C:5B:A5:92:96:52:FC:78:40:42:81:90:8F:D1:7B:56:FF:33:3C:D3:91:18:6F:1B:EB"
+      ]
+    }
+  }
+]
