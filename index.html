@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Opening EasySale…</title>
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const pid = params.get("pid");
+    const inf = params.get("inf");
+    const name = params.get("name");
+
+    // Android App Link (works only if app is installed)
+    const deepLink = `https://mathemathicapp-bot.github.io/product?pid=${pid}&inf=${inf}&name=${name}`;
+
+    window.location.href = deepLink;
+  </script>
+</head>
+<body>
+  <p>Opening EasySale App…</p>
+</body>
+</html>
